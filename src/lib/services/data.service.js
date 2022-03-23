@@ -19,7 +19,3 @@ export const emailConcern = (to, from, subject, text) => {
         created_at: date
     }});
 }
-
-export const deleteConcern = () => {
-    return axios.delete();
-}
